@@ -76,11 +76,19 @@ body{
     bottom: 0px;
     z-index: 1;
 }
-.modal-header{
-    background:$background-dark;
-    color: floralwhite;
-}
-  .modal-header .close{
-    color: floralwhite;
+  .modal {
+    .modal-header {
+      background-color: $background-dark;
+  
+      .modal-title {
+        color: floralwhite;
+      }
+      .close {
+        color: floralwhite; 
+      }
+    }
+    .modal-body {
+      background-color: $background-pale;
+    }
   }
   
